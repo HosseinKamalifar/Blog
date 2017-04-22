@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+/*Top-border*/
+ /*#top {
+  width: 100%;
+  height: 8px;
+  background-color: black;
+}*/
+/*header*/
+
+header {
+    background-color: #FFF;
+    height: 180px;
+    padding: 10px;
+}
+
+.my-picture {
+    width: 110px;
+    height: 150px;
+    margin: 4px 290px;
+    display: inline-flex;
+    float: left;
+    border-radius: 25%;
+    border: 5px ridge black;
+}
+
+header h1 {
+    display: inline-block;
+    float: left;
+    margin: 30px 0 0 15px;
+    font-family: fantasy;
+    color: #0080ff;
+}
+
+.header-contact {
+    text-align: right;
+    margin: 25px 10px;
+}
+
+
+/*navbar */
+
+.navbar {
+    width: 100%;
+    margin: 0;
+    display: block;
+
+}
+
+#navbar-head {
+    color: #0080ff;
+}
+
+#navbar-head span {
+    border: 1px solid #FFF;
+    border-width: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: inline;
+}
+
+#navbar li a {
+    color: #00FFFF;
+}
+
+#navbar li a:hover {
+    color: #fff;
+}
+
+#contact {
+    color: #00FFFF;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+#contact:hover {
+    color: #fff;
+}
+
+
+/*section*/
+
+section {
+    width: 88%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: fantasy;
+}
+
+
+/*srction jubmotron*/
+
+.jumbotron h1 {
+    text-align: center;
+}
+
+.jumbotron {
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.jumbotron p {
+    font-size: 1.3em;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/*images*/
+#full-image img {
+  border-radius: 100%;
+}
+.sits img {
+    width: 60%;
+    margin: 0 auto;
+    height: 140px;
+}
+
+
+
+.sits {
+    margin: 30px auto;
+    margin-bottom: 70px;
+}
+
+section h2 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.my-projects {
+    border: 5px ridge #00ffff;
+    width: 98%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.my-projects h2 {
+    color: #0080ff;
+    margin-top: 10px;
+}
+
+
+
+/*******************************footer****************************************/
+
+#footer {
+    background-color: rgb(176, 172, 173);
+    box-shadow: 1px -10px 43px 13px rgb(176, 172, 173);
+    margin-top: 30px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.contact-info {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 0.9em;
+    float: left;
+    display: inline-block;
+}
+
+.contact-info a {
+    display: block;
+    min-width: 30px;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 10px 0 10px;
+    text-decoration: none;
+}
+
+.contact-info li.phone a {
+    background-image: url('img/Phone.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('img/mail.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('img/twitter.png');
+}
+
+.img {
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img img {
+    max-width: 80px;
+    padding: 7px;
+}
+
+.designer {
+    text-align: right;
+}
+
+
+/********************************Media quaries*********************************/
