@@ -1,177 +1,161 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: #D3D3D3;
-    border: 1px solid #00FFFF;
-}
 
 /*header*/
 
 header {
-    background-color: #FFF;
-    height: 180px;
+  background-color: #FFF;
+  height: 180px;
+  padding: 0;
 }
 
-.frame {
-  position: fixed;
-  display: none;
-  background: white;
-  width: 700px;
-  height: 500px;
-  margin-left:-350px;
-  left: 50%;
-}
-
-.overlay {
-  display: none;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: black;
-  opacity: 0.7;
-}
 .my-picture {
-    width: 120px;
-    height: 155px;
-    display: inline-block;
-    border-radius: 25%;
-    border: 5px ridge black;
+  width: 118px;
+  height: 155px;
+  margin: 0 auto;
+  border-radius: 25%;
+  border: 3px ridge black;
+  display: inline-block;
 }
 
 header h1 {
-    display: inline;
-    float: left;
-    margin: 30px 0 0 15px;
-    font-family: cambria;
-    color: #0080ff;
-    text-shadow: -2px -2px 26px #00FFFF ;
+  float: left;
+  margin: 30px 0 0 15px;
+  font-family: cambria;
+  color: #0080ff;
+  text-shadow: -2px -2px 26px #00FFFF;
+  display: inline;
 }
 
 .header-contact {
-    text-align: right;
-    padding: 20px;
-    margin-top: 15px;
-    display: inline;
+  text-align: right;
+  padding: 20px;
+  margin-top: 15px;
+  display: inline;
 }
 
 
 /*navbar */
 
 .navbar {
-    width: 100%;
-    margin: 0;
-    display: block;
-
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0;
+  display: inline-block;
 }
 
 #navbar-head {
-    color: #0080ff;
+  color: #0080ff;
 }
 
 #navbar-head span {
-
-    border: 1px solid #FFF;
-    border-width: 10px;
-    border-radius: 100px;
-    background-color: #fff;
-    display: inline;
-
+  border: 1px solid #FFF;
+  border-width: 10px;
+  border-radius: 100px;
+  background-color: #fff;
+  display: inline;
+  font-family: Kaushan Script;
 }
 
 #navbar li a {
-    color: #00FFFF;
+  color: #00FFFF;
 }
 
 #navbar li a:hover {
-    color: #fff;
-    box-shadow: inset -1px -1px 38px 3px rgba(0,255,255,0.63);
+  color: #fff;
+  box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
 }
 
 #contact {
-    color: #00FFFF;
-    font-size: 1.5em;
-    font-family: labster;
+  color: #00FFFF;
+  font-size: 1.5em;
+  font-family: labster;
 }
 
 #contact:hover {
-    color: #fff;
-    box-shadow: inset -1px -1px 38px 3px rgba(0,255,255,0.63);
+  color: #fff;
+  box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
 }
 
 
 /*section*/
 
 section {
-    width: 88%;
-    background-color: #fff;
-    margin: 0 auto;
+  width: 88%;
+  background-color: #fff;
+  margin: 0 auto;
 }
 
 section h1, h2 {
-    font-family: fantasy;
+  font-family: fantasy;
 }
 
 
 /*srction jubmotron*/
 
 .jumbotron h1 {
-    font-size: 2.7em;
-    text-align: center;
+  font-size: 2.7em;
+  text-align: center;
+  font-family: Courgette;
 }
 
 .jumbotron {
-    padding: 20px;
-    margin-bottom: 0;
+  padding: 20px;
+  margin-bottom: 0;
 }
 
 .jumbotron p {
-    font-size: 1.3em;
-    margin: 0 auto;
-    width: 90%;
+  font-size: 1.3em;
+  margin: 0 auto;
+  width: 90%;
 }
 
 
 /*images*/
+
 #full-image img {
   border-radius: 100%;
 }
+
 .sits img {
-    width: 60%;
-    margin: 0 auto;
-    height: 140px;
+  width: 60%;
+  margin: 0 auto;
+  height: 140px;
 }
 
-
-
 .sits {
-    margin: 30px auto;
-    margin-bottom: 70px;
+  margin: 30px auto;
+  margin-bottom: 70px;
 }
 
 section h2 {
-    margin-top: 70px;
-    margin-bottom: 15px;
-    text-align: center;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Courgette;
 }
+
 .images h3 {
-  text-shadow: -2px -2px 2px #00ffff;
+  text-shadow: -1px -1px 2px #00ffff;
 }
+
 .my-projects {
-    border: 5px ridge #00ffff;
-    width: 98%;
-    height: 300px;
-    margin: 10px auto;
-    box-shadow: 1px -1px 44px 3px rgba(13,222,250,1);
+  border: 5px ridge #00ffff;
+  width: 98%;
+  height: 300px;
+  margin: 10px auto;
+  box-shadow: 1px -1px 44px 3px rgba(13, 222, 250, 1);
 }
 
 .my-projects h2 {
-    color: #0080ff;
-    margin-top: 10px;
-    font-family: lobster;
+  color: #0080ff;
+  margin-top: 10px;
+  font-family: lobster;
 }
 
 #click {
@@ -179,99 +163,95 @@ section h2 {
   font-family: cambria;
 }
 
+
 /*******************************footer****************************************/
 
 #footer {
-    background-color: rgb(176, 172, 173);
-    box-shadow: 1px -10px 43px 13px rgb(176, 172, 173);
-    margin-top: 30px;
-    width: 100%;
-    height: 200px;
+  background-color: rgb(176, 172, 173);
+  box-shadow: 1px -10px 43px 13px rgb(176, 172, 173);
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
 }
 
 .contact-info {
-    list-style: none;
-    margin-top: 10px;
-    font-size: 0.9em;
-    float: left;
-    display: inline-block;
+  list-style: none;
+  margin-top: 10px;
+  font-size: 0.9em;
+  float: left;
+  display: inline-block;
 }
 
 .contact-info a {
-    display: block;
-    min-width: 30px;
-    min-height: 20px;
-    background-repeat: no-repeat;
-    background-size: 20px 20px;
-    padding: 0 0 0 30px;
-    margin: 10px 0 10px;
-    text-decoration: none;
+  display: block;
+  min-width: 30px;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 10px 0 10px;
+  text-decoration: none;
 }
 
 .contact-info li.phone a {
-    background-image: url('img/Phone.png');
+  background-image: url('img/Phone.png');
 }
 
 .contact-info li.mail a {
-    background-image: url('img/mail.png');
+  background-image: url('img/mail.png');
 }
 
 .contact-info li.twitter a {
-    background-image: url('img/twitter.png');
+  background-image: url('img/twitter.png');
 }
 
 .img {
-    width: 170px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+  width: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .img img {
-    max-width: 80px;
-    padding: 7px;
+  max-width: 80px;
+  padding: 7px;
 }
 
 .designer {
-    text-align: right;
+  text-align: right;
 }
 
 
 /********************************Media quaries*********************************/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-  .my-picture{
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .my-picture {
     display: none;
   }
-
   section {
-      width: 100%;
+    width: 100%;
   }
   .sits img {
-      max-width: 60%;
-      margin: 0 auto;
-      margin-top: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   .header-contact p {
     text-align: right;
     margin-right: 10px;
   }
-  .img  {
-      justify-content: right;
+  .img {
+    justify-content: right;
   }
-  #footer li,p {
+  #footer li, p {
     font-size: 1.4em;
   }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1025px) {
-  .my-picture{
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+  .my-picture {
     display: none;
-  }
-  .sits img {
-      max-width: 50%;
-      margin: 0 auto;
-      margin-top: 20px;
   }
   header h1 {
     font-size: 2em;
@@ -281,21 +261,24 @@ section h2 {
     margin-right: 10px;
     font-size: 1.1em;
   }
-  .img  {
-      justify-content: right;
+  .img {
+    justify-content: right;
   }
-  #footer li,p {
+  .sits img {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  #footer li, p {
     font-size: 1.1em;
   }
 }
-@media only screen and (min-device-width : 124px)  {
-  .my-picture{
-    margin: 0 auto;
-  }
+
+@media only screen and (min-device-width: 1025px) {
   .sits img {
-      max-width: 60%;
-      margin: 0 auto;
-      margin-top: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   header h1 {
     font-size: 2em;
@@ -306,10 +289,10 @@ section h2 {
     margin-right: 10px;
     font-size: 1.1em;
   }
-  .img  {
-      justify-content: right;
+  .img {
+    justify-content: right;
   }
-  #footer li,p {
+  #footer li, p {
     font-size: 1.1em;
   }
 }
