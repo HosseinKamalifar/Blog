@@ -9,16 +9,16 @@
 
 header {
   background-color: #FFF;
-  height: 180px;
+  height: 120px;
   padding: 0;
 }
 
 #photo {
   margin: 0 auto;
-  width: 118px;
-  height: 155px;
-  border-radius: 25%;
-  border: 3px ridge black;
+  width: 280px;
+  height: 350px;
+  border-radius: 100%;
+  margin-top: 30px;
   display: inline;
 }
 
@@ -48,12 +48,13 @@ padding:20px;
 
 #navbar-head {
   color: #0080ff;
+  border: 1px solid #00FFFF;
+  border-radius: 100px;
 }
 
 #navbar-head span {
-  border: 1px solid #FFF;
+
   border-width: 10px;
-  border-radius: 100px;
   background-color: #fff;
   display: inline;
   font-family: Kaushan Script;
@@ -64,7 +65,7 @@ padding:20px;
 }
 
 #navbar li a:hover {
-  color: #fff;
+  color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
 }
 
@@ -75,7 +76,7 @@ padding:20px;
 }
 
 #contact:hover {
-  color: #fff;
+  color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
 }
 
