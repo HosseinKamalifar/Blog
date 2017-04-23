@@ -13,13 +13,13 @@ header {
   padding: 0;
 }
 
-.my-picture {
+#photo {
+  margin: 0 auto;
   width: 118px;
   height: 155px;
-  margin: 0 auto;
   border-radius: 25%;
   border: 3px ridge black;
-  display: inline-block;
+  display: inline;
 }
 
 header h1 {
@@ -32,10 +32,7 @@ header h1 {
 }
 
 .header-contact {
-  text-align: right;
-  padding: 20px;
-  margin-top: 15px;
-  display: inline;
+padding:20px;
 }
 
 
@@ -225,8 +222,8 @@ section h2 {
 
 /********************************Media quaries*********************************/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  .my-picture {
+@media (min-width: 320px) and (max-width: 768px) {
+  #photo {
     display: none;
   }
   section {
@@ -249,8 +246,8 @@ section h2 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
-  .my-picture {
+@media  (min-width: 768px) and (max-width: 1025px) {
+  #photo {
     display: none;
   }
   header h1 {
@@ -274,7 +271,8 @@ section h2 {
   }
 }
 
-@media only screen and (min-device-width: 1025px) {
+@media (min-width: 1025px) {
+
   .sits img {
     max-width: 60%;
     margin: 0 auto;
