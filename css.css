@@ -14,12 +14,10 @@ header {
 }
 
 #photo {
-  margin: 0 auto;
   width: 280px;
   height: 350px;
   border-radius: 100%;
-  margin-top: 30px;
-  display: inline;
+  margin: 30px auto;
 }
 
 header h1 {
@@ -32,7 +30,7 @@ header h1 {
 }
 
 .header-contact {
-padding:20px;
+  padding: 20px;
 }
 
 
@@ -53,7 +51,6 @@ padding:20px;
 }
 
 #navbar-head span {
-
   border-width: 10px;
   background-color: #fff;
   display: inline;
@@ -67,6 +64,7 @@ padding:20px;
 #navbar li a:hover {
   color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
+  border-bottom: 1px solid black;
 }
 
 #contact {
@@ -78,6 +76,7 @@ padding:20px;
 #contact:hover {
   color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
+  border-bottom: 1px solid black;
 }
 
 
@@ -96,21 +95,20 @@ section h1, h2 {
 
 /*srction jubmotron*/
 
-.jumbotron h1 {
+.about-me h1 {
   font-size: 2.7em;
   text-align: center;
   font-family: Courgette;
 }
 
-.jumbotron {
-  padding: 20px;
-  margin-bottom: 0;
+.about-me {
+  float: right;
+  margin: 50px auto;
 }
 
-.jumbotron p {
-  font-size: 1.3em;
+.about-me p {
+  font-size: 1.2em;
   margin: 0 auto;
-  width: 90%;
 }
 
 
@@ -216,16 +214,23 @@ section h2 {
   padding: 7px;
 }
 
-.designer {
+
+#designer {
   text-align: right;
+  text-decoration: none;
+ color: #f27807;
+ margin-right: 25px;
+ display: block;
+
 }
+
 
 
 /********************************Media quaries*********************************/
 
 @media (min-width: 320px) and (max-width: 768px) {
   #photo {
-    display: none;
+    margin: 0 auto;
   }
   section {
     width: 100%;
@@ -243,14 +248,18 @@ section h2 {
     justify-content: right;
   }
   #footer li, p {
-    font-size: 1.4em;
+    font-size: 1.2em;
+  }
+  #footer .img a {
+      display: none;
+  }
+  .designer {
+    margin-top: 200px;
   }
 }
 
-@media  (min-width: 768px) and (max-width: 1025px) {
-  #photo {
-    display: none;
-  }
+@media (min-width: 768px) and (max-width: 1025px) {
+  #photo {}
   header h1 {
     font-size: 2em;
   }
@@ -273,7 +282,6 @@ section h2 {
 }
 
 @media (min-width: 1025px) {
-
   .sits img {
     max-width: 60%;
     margin: 0 auto;
