@@ -5,21 +5,43 @@
   <meta charset="utf-8">
   <title>Hossein Kamalifar's porfolio resume</title>
   <!-- Latest compiled and minified CSS -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="js.js">
+
+  </script>
   <link rel="stylesheet" href="css.css">
 </head>
 
 <body>
   <header>
-    <h1> Hossein Kamalifar</h1>
-    <img src="./img/books/hossein1.png" alt="My Picture" class="my-picture">
     <div class=" header-contact">
-      <p><strong>Email:</strong> Hosseinkf@live.dk</p>
-      <p><strong>TelefonNr:</strong> +45 20815836</p>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <h1> Hossein Kamalifar</h1>
+        </div>
+        <div class="overlay"></div>
+        <div class="frame">
+          <img src="" alt="">
+        </div>
+        <div class="col-md-2">
+          <a><img class="my-picture" src="./img/books/hossein1.png" alt="My Picture" ></a>
+        </div>
+        <div class="col-md-5">
+          <p><strong>Email:</strong> Hosseinkf@live.dk</p>
+          <p><strong>TelefonNr:</strong> +45 20815836</p>
+        </div>
+      </div>
     </div>
+  </div>
+
+
+
   </header>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -31,7 +53,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="#" id="navbar-head"><span><strong>Porfolio</strong></span></a>
+        <a class="navbar-brand" href="#" id="navbar-head"><span><strong>Portfolio</strong></span></a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,17 +107,17 @@
         <div class="col-lg-offset-1 col-lg-6">
           <h2 id="programing-skills">Programing Skills</h2>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 85%;">
+            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 85%;">
               Html
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
               CSS / SASS
             </div>
           </div>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 20%;">
+            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 20%;">
               JavaScript / Jquery
             </div>
           </div>
@@ -105,12 +127,12 @@
       </div>
       <!-- row 2  -->
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-md-6 col-lg-5">
           <h2 id="my-goal">My goal</h2>
           <p>my dream is to became a very good programmer and web developer, I want to create Great websites and apps that improve people’s lives and experiences. For the next step my goal is to learn Java Script better and its frameworks (Like Node.js and
             React.js) after that I want to learn Python, PHP and MySQL, to became full-stack developer and then maybe mobile development.</p>
         </div>
-        <div class="col-lg-offset-1 col-lg-5">
+        <div class="col-md-6 col-lg-offset-1 col-lg-5">
           <h2 id="hobbies">Hobbies</h2>
           <p>
             my hobby is that i play playstation and go to fitness and than rest of my time i study to learn coding and my english language.
@@ -118,60 +140,55 @@
         </div>
       </div>
       <!--row 3  -->
-      <h2 id="learn">What i have used to learn programing <span id="click">(Click)</span></h2>
+      <h2 id="learn">What i have used to learn programing <span id="click"><p>(Click on the logo)</p></span></h2>
       <div class="images">
 
         <div class="row sits">
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3 ">
             <a href="https://teamtreehouse.com"><img src="./img2/th.png"></a>
             <div class="caption">
               <h3>TreeHouse</h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class=" col-sm-4 col-md-3 col-lg-3 ">
             <a href="https://www.codecademy.com"><img src="./img2/cd2.png"></a>
             <div class="caption">
               <h3>Code Cademy</h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3 ">
             <a href="https://da.khanacademy.org/"><img src="./img2/kh.png"></a>
             <div class="caption">
               <h3>KhanAcademy</h3>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4" id="full-image">
+          <div class="col-sm-4 col-md-3 col-lg-3 " id="full-image">
             <a href="https://www.freecodecamp.com/"><img src="./img3/freecodecamp.jpg"></a>
             <div class="caption">
               <h3>Freecodecamp</h3>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="images">
-
-        <div class="row sits">
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3">
             <a href="https://www.udacity.com/"><img src="./img3/udacity.png"></a>
             <div class="caption">
               <h3>Udacity</h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3">
             <a href="https://www.getbootstrap.com/"><img src="./img2/bt2.png"></a>
             <div class="caption">
               <h3>BootStrap</h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3">
             <a href="https://www.w3schools.com/"><img src="./img2/w3.jpg"></a>
             <div class="caption">
               <h3>W3Schools</h3>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-sm-4 col-md-3 col-lg-3">
             <a href="https://developer.mozilla.org/"><img src="./img3/mdn.png"></a>
             <div class="caption">
               <h3>Mozilla Developer Network</h3>
