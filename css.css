@@ -14,10 +14,11 @@ header {
 }
 
 #photo {
-  width: 280px;
-  height: 350px;
-  border-radius: 100%;
-  margin: 30px auto;
+  width: 220px;
+  height: 330px;
+  border-radius: 8%;
+  float: left;
+  margin-top: 50px;
 }
 
 header h1 {
@@ -58,7 +59,7 @@ header h1 {
 }
 
 #navbar li a {
-  color: #00FFFF;
+  color:black;
 }
 
 #navbar li a:hover {
@@ -136,9 +137,7 @@ section h2 {
   font-family: Courgette;
 }
 
-.images h3 {
-  text-shadow: -1px -1px 2px #00ffff;
-}
+
 
 .my-projects {
   border: 5px ridge #00ffff;
@@ -153,11 +152,16 @@ section h2 {
   margin-top: 10px;
   font-family: lobster;
 }
+#comming-soon {
+  margin: 2% 30%;
+  max-width: 40%;
+}
 
 #click {
   font-size: 0.7em;
   font-family: cambria;
 }
+
 
 
 /*******************************footer****************************************/
@@ -177,6 +181,9 @@ section h2 {
   float: left;
   display: inline-block;
 }
+.contact-info:hover {
+
+}
 
 .contact-info a {
   display: block;
@@ -187,6 +194,7 @@ section h2 {
   padding: 0 0 0 30px;
   margin: 10px 0 10px;
   text-decoration: none;
+  color: black;
 }
 
 .contact-info li.phone a {
