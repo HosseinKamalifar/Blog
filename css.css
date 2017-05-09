@@ -59,22 +59,25 @@ header h1 {
 }
 
 #navbar li a {
-  color:black;
+  color: black;
 }
 
 #navbar li a:hover {
+  border-radius: 10px;
+  transition: .7s;
   color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
   border-bottom: 1px solid black;
 }
 
 #contact {
-  color: #00FFFF;
+  color: #04ffd9;
   font-size: 1.5em;
   font-family: labster;
 }
 
 #contact:hover {
+  transition: .7s;
   color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
   border-bottom: 1px solid black;
@@ -137,8 +140,6 @@ section h2 {
   font-family: Courgette;
 }
 
-
-
 .my-projects {
   border: 5px ridge #00ffff;
   width: 98%;
@@ -152,9 +153,11 @@ section h2 {
   margin-top: 10px;
   font-family: lobster;
 }
+
 #comming-soon {
   margin: 2% 30%;
   max-width: 40%;
+  transition: width 2s;
 }
 
 #click {
@@ -163,38 +166,33 @@ section h2 {
 }
 
 
-
 /*******************************footer****************************************/
 
 #footer {
-  background-color: rgb(176, 172, 173);
-  box-shadow: 1px -10px 43px 13px rgb(176, 172, 173);
+  background-color: rgba(210, 210, 210, 0.68);
+  box-shadow: 1px -10px 43px 13px rgba(210, 210, 210, 0.68);
   margin-top: 30px;
-  width: 100%;
-  height: 200px;
+  max-width: 100%;
+  min-height: 230px;
 }
 
 .contact-info {
   list-style: none;
   margin-top: 10px;
-  font-size: 0.9em;
+  font-size: 1.1em;
   float: left;
   display: inline-block;
 }
-.contact-info:hover {
-
-}
-
 .contact-info a {
-  display: block;
-  min-width: 30px;
+  min-width: 10px;
   min-height: 20px;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 30px 30px;
   padding: 0 0 0 30px;
-  margin: 10px 0 10px;
+  margin: 10px 25px 10px;
   text-decoration: none;
   color: black;
+ display:block;
 }
 
 .contact-info li.phone a {
@@ -205,33 +203,31 @@ section h2 {
   background-image: url('img/mail.png');
 }
 
-.contact-info li.twitter a {
-  background-image: url('img/twitter.png');
-}
-
 .img {
-  width: 170px;
+  width: 320px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 auto;
+  float: right;
 }
 
 .img img {
-  max-width: 80px;
+  max-width: 60px;
   padding: 7px;
+  display: inline-block;
 }
-
-
-#designer {
-  text-align: right;
-  text-decoration: none;
- color: #f27807;
- margin-right: 25px;
- display: block;
-
+.img ul li {
+  list-style: none;
 }
-
+.img ul li span {
+text-decoration: none;
+color: black;
+}
+.creater {
+text-align: center;
+text-decoration: none;
+color: #08ee04;
+}
 
 
 /********************************Media quaries*********************************/
@@ -259,7 +255,7 @@ section h2 {
     font-size: 1.2em;
   }
   #footer .img a {
-      display: none;
+    display: none;
   }
   .designer {
     margin-top: 200px;
