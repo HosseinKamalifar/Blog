@@ -173,13 +173,13 @@ section h2 {
   box-shadow: 1px -10px 43px 13px rgba(210, 210, 210, 0.68);
   margin-top: 30px;
   max-width: 100%;
-  min-height: 180px;
+  min-height: 170px;
 }
 
 .contact-info {
   list-style: none;
   margin-top: 10px;
-  font-size: 1em;
+  font-size: 0.9em;
   float: left;
   display: inline-block;
 }
@@ -225,7 +225,9 @@ color: black;
 .creater {
 text-align: center;
 text-decoration: none;
-color: #08ee04;
+color: #393E46;
+font-size: 0.9em;
+margin-top: 5px;
 }
 
 
