@@ -173,13 +173,13 @@ section h2 {
   box-shadow: 1px -10px 43px 13px rgba(210, 210, 210, 0.68);
   margin-top: 30px;
   max-width: 100%;
-  min-height: 230px;
+  min-height: 180px;
 }
 
 .contact-info {
   list-style: none;
   margin-top: 10px;
-  font-size: 1.1em;
+  font-size: 1em;
   float: left;
   display: inline-block;
 }
@@ -187,7 +187,7 @@ section h2 {
   min-width: 10px;
   min-height: 20px;
   background-repeat: no-repeat;
-  background-size: 30px 30px;
+  background-size: 25px 25px;
   padding: 0 0 0 30px;
   margin: 10px 25px 10px;
   text-decoration: none;
@@ -212,7 +212,7 @@ section h2 {
 }
 
 .img img {
-  max-width: 60px;
+  max-width: 50px;
   padding: 7px;
   display: inline-block;
 }
@@ -220,7 +220,6 @@ section h2 {
   list-style: none;
 }
 .img ul li span {
-text-decoration: none;
 color: black;
 }
 .creater {
