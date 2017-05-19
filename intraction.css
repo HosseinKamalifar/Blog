@@ -1,0 +1,19 @@
+/*Top photo*/
+#photo {
+  transition: transform .5s cubic-bezier(.7,-0.39,.31,1.38);
+}
+#photo:hover {
+  transform: scale(1.3);
+}
+
+/*Bottom images*/
+.images a img {
+transition: transform .5s cubic-bezier(.7,-0.39,.31,1.38);
+
+}
+
+
+.images a:hover img {
+  transform: rotate(-5deg) scale(1.2);
+
+}
