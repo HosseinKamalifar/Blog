@@ -17,3 +17,12 @@ transition: transform .5s cubic-bezier(.7,-0.39,.31,1.38);
   transform: rotate(-5deg) scale(1.2);
 
 }
+
+ .icons img{
+transition: transform .3s ease-in;
+
+}
+.icons li:hover img{
+  transform: scale(1.25);
+
+}

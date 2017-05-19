@@ -63,8 +63,8 @@ header h1 {
 }
 
 #navbar li a:hover {
-  border-radius: 10px;
-  transition: .7s;
+  border-radius: 5px;
+  transition: .5s;
   color: black;
   box-shadow: inset -1px -1px 38px 3px rgba(0, 255, 255, 0.63);
   border-bottom: 1px solid black;
@@ -208,7 +208,7 @@ section h2 {
   background-image: url('img/mail.png');
 }
 
-.img {
+.icons {
   width: 320px;
   display: flex;
   flex-wrap: wrap;
@@ -216,15 +216,16 @@ section h2 {
   float: right;
 }
 
-.img img {
+.icons img {
   max-width: 50px;
   padding: 7px;
   display: inline-block;
 }
-.img ul li {
+.icons ul {
   list-style: none;
+  text-decoration: none;
 }
-.img ul li span {
+.icons ul li span {
 color: black;
 }
 .creater {
@@ -233,6 +234,12 @@ text-decoration: none;
 color: #393E46;
 font-size: 0.9em;
 margin-top: 5px;
+}
+
+.icons ul span:hover {
+  list-style: none;
+  border-bottom: none;
+  text-decoration: none;
 }
 
 
@@ -260,7 +267,7 @@ margin-top: 5px;
   #footer li, p {
     font-size: 1.2em;
   }
-  #footer .img a {
+  #footer .icons a {
     display: none;
   }
   .designer {
@@ -278,10 +285,10 @@ margin-top: 5px;
     margin-right: 10px;
     font-size: 1.1em;
   }
-  .img {
+  .icons {
     justify-content: right;
   }
-  .sits img {
+  .sitss img {
     max-width: 50%;
     margin: 0 auto;
     margin-top: 20px;
